@@ -1,7 +1,7 @@
 # <a id="questions"> 🙋 Questions </a>
 1. How much is the current memory capacity of a canister? 
 
-**Answer 1: 8 gigabytes**
+**Answer 1: 48GB of stable memory**
 
 2. What is the issue with the following code sample?
 ```
