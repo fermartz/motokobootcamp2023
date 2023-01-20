@@ -6,4 +6,4 @@ You can take a look at the repo [HERE](https://github.com/fermartz/motoko_bootca
 
 Here is the [DApp live version](https://436et-jiaaa-aaaap-qa5dq-cai.ic0.app/#/dao)
 
-Here is the [Webpage live version](https://436et-jiaaa-aaaap-qa5dq-cai.ic0.app/)
+Here is the [Webpage live version](https://5dxrq-hiaaa-aaaap-qa5hq-cai.raw.ic0.app/)
