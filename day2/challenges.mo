@@ -1,8 +1,10 @@
 import Buffer "mo:base/Buffer";
 import Char "mo:base/Char";
+import Int "mo:base/Int";
 import Iter "mo:base/Iter";
 import Nat "mo:base/Nat";
 import Text "mo:base/Text";
+
 
 
 actor {
@@ -81,9 +83,13 @@ actor {
         
     };
 
-    public func convert_to_binary(n : Nat) : async Text {
-
-        // let r = Char.toNat32(Nat.toChar(n));
-        Nat.toText(n);
+    public query func convert_to_binary(n : Nat) : async Text {
+        var num = n;
+        var binary = Nat.toText((num % 2));
+        while (num > 1) {
+            num := Int.abs((num / 2));
+            binary := Nat.toText(num % 2) # binary;
+        };
+        binary;
     };
 }
