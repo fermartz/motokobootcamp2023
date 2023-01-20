@@ -1,4 +1,4 @@
-# Put the files corresponding to your task in this folder
+# Attention
 
 I plan to add my core project to the following project I created for the Motoko Bootcamp.
 
